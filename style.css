@@ -1,0 +1,64 @@
+/* MAIN HEADER */
+h1{
+    color: rgb(141, 180, 191);
+    font-style: bold;
+}
+body{
+    background-color: rgb(8, 65, 112);
+}
+.main-heading{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.order-id-input{
+	margin: 20px auto;
+	width: 500px;
+	text-align: center;
+}
+
+.btn-outer{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+/* ORDER CARDS */
+.order-block {
+	margin: 20px 0;
+}
+
+.card {
+	border-radius: 20px
+}
+
+.card-header {
+	color: #fff;
+	background-color: #577a9c;
+	border-color: #1e79d3;
+	border-radius: 20px 20px 0 0 !important;
+}
+
+.card-footer{
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+.cancel-button {
+	width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.order-status{
+	font-size: 1.2em;
+}
+
+/* EMPTY ORDER IMAGE */
+#empty-order-gif {
+    
+	height: 400px;
+	max-width: 400px;
+  margin: auto;
+}
